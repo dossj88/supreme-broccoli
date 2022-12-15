@@ -49,4 +49,3 @@ removeNote(id) {
 }
 
 module.exports = Store();
-/*
