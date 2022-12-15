@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'));
 app.use('/api', apiRoute);
-app.use('/html', htmlRoute);
+app.use('/', htmlRoute);
 
-app.listen(PORT, () => console.log(`Server listening on port `));
+app.listen(PORT, () => console.log(`Server listening on port 3001`));
   
